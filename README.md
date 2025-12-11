@@ -1,6 +1,7 @@
 ## Comando para ejecutar tarea
 
 ```bash
+mvn compile
 mvn exec:java "-Dexec.mainClass=cl.ucn.estacionamiento.Main" -q
 ```
 
